@@ -13,8 +13,6 @@ namespace EstoqueFacil.Funcionalidades
         public void GeraRelatorio()
         {
 
-            //Allan, até aqui, ta tudo funcionando, agora é só dar uma lapidada e criar novas funcionalidades.
-
             ProdutoDAL produtoDAL = new();
             List<Produto> produto = new();
             produtoDAL.getProdutos(out produto);
