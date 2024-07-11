@@ -15,7 +15,6 @@ namespace EstoqueFacil.Menus
         public override void Executar()
         {
 
-            //Allan, a executar este método, está dando erro, favor tratar amanhã
             base.Executar();
             ProgramMain main = new();
             ProdutoDAL produtoDAL = new();
